@@ -69,7 +69,7 @@ for i in range(S):
 Die Mittelwerte jeder Simulation werden in der Liste `x_means` abgespeichert. Die Liste enthält nun eine empirische Stichprobenverteilung des Mittelwerts. Nun können Sie sich die Verteilung des Stichproben-Mittelwertes beispielsweise in einem Histogramm ansehen:
 
 ```python
-#matplotlib inline
+%matplotlib inline
 import seaborn as sns
 sns.set()
 sns.distplot(x_means, kde=False, bins=35)
